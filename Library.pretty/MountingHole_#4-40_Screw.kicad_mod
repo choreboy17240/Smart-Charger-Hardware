@@ -1,0 +1,118 @@
+(footprint "MountingHole_#4-40_Screw"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3mm, no annular")
+	(tags "mounting hole 3mm no annular")
+	(property "Reference" "REF**"
+		(at 0.12 -4.59 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dfc6e34a-6a39-48f5-9767-e36e5180a206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0.6 4.62 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "668ca2ef-024b-4bb0-8b4d-8875819a046e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "946484f4-e1f9-4def-aad8-0eb00effbb7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9c52189-809f-47fc-837c-d7e2e19e4c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_line
+		(start -4.5 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1f3cca36-e0ce-4009-b1d5-e6089b2d1672")
+	)
+	(fp_line
+		(start 0 -4.5)
+		(end 0 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bfa87889-4fb3-43f2-ab43-230f323e6f1b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.7 0)
+		(stroke
+			(width 0.075)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "1ea87bfd-a34b-4e25-8aba-09e5ef298796")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cc48ed58-9e00-4f5c-9ea4-443ec29b94cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.979549 0.127 0)
+		(layer "F.Fab")
+		(uuid "d308ab50-7372-4066-9133-5db7a7d75d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "55a36625-fffc-4e98-beee-a2b27327bab7")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,320 @@
+(footprint "Converter_DCDC_RECOM_R-78E-0.5_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, RECOM, RECOM_R-78E-0.5, SIP-3, pitch 2.54mm, package size 11.6x8.5x10.4mm^3, https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
+	(tags "dc-dc recom buck sip-3 pitch 2.54mm")
+	(property "Reference" "REF**"
+		(at 2.8026 3.0503 0)
+		(layer "F.SilkS")
+		(uuid "b68c14bb-366c-47c5-999d-79ee7d376d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R-78E3.3-0.5"
+		(at 2.54 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c17568c-91c1-47f3-9872-41f7a5aa1a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4d7b478-a961-4ccd-a598-217af25d9bec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "R-78E3.3-0.5 DC DC Converter 3.3V 2W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74c2bfe9-6c68-4647-b0a5-98860efbf1aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfc22a31-8801-4ff6-9f1a-2b589c5db2d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9049e0ee-7a6d-49ef-9185-110c2bb53240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76831ae6-c62e-4b1b-9841-780ec7d7edb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr P/N" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd146288-293d-4b8f-bafa-d41be2d62bd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comments" "RECOM or equivalent"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "558aae4e-69bf-4637-b9be-a7328d7c2b7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.611 1.06)
+		(end -3.611 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9ff3c24-5d0c-4e2a-9d12-7320ea3b0a28")
+	)
+	(fp_line
+		(start -3.611 2.3)
+		(end -2.371 2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5af3ed43-a1df-468c-8f4d-b6e8631f31fa")
+	)
+	(fp_line
+		(start -3.371 -6.56)
+		(end -3.371 2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82e204db-90be-453d-a29b-37d6e6ccd942")
+	)
+	(fp_line
+		(start -3.371 -6.56)
+		(end 8.35 -6.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "078ed8e8-04b2-432e-91b9-e415e3df79e3")
+	)
+	(fp_line
+		(start -3.371 2.06)
+		(end 8.35 2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e242b28-a16f-42a0-a58d-67f61bba77e5")
+	)
+	(fp_line
+		(start 8.35 -6.56)
+		(end 8.35 2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca9bb41d-bf45-4798-85b0-d898229e865e")
+	)
+	(fp_line
+		(start -3.57 -6.75)
+		(end -3.57 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da997d85-e969-45eb-b362-35cc54b699b7")
+	)
+	(fp_line
+		(start -3.57 2.25)
+		(end 8.54 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dc7eed5-9d65-45c6-b70f-22ae689aa5f5")
+	)
+	(fp_line
+		(start 8.54 -6.75)
+		(end -3.57 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e146384-87d7-4fdd-ba9f-0dbbb93bca42")
+	)
+	(fp_line
+		(start 8.54 2.25)
+		(end 8.54 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f003eaa-2e66-43df-b24d-7128bbcd6789")
+	)
+	(fp_line
+		(start -3.31 -6.5)
+		(end 8.29 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a786a50-4b2b-4060-ad7f-652b53fa9c7a")
+	)
+	(fp_line
+		(start -3.31 1)
+		(end -3.31 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec7d4407-fda7-4125-8455-8ae8c3734ff2")
+	)
+	(fp_line
+		(start -2.31 2)
+		(end -3.31 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67fa68e2-e0b0-4744-ab88-c898e99fb7d7")
+	)
+	(fp_line
+		(start 8.29 -6.5)
+		(end 8.29 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3dd50a13-ce7c-4e31-873b-3ab4297df5e7")
+	)
+	(fp_line
+		(start 8.29 2)
+		(end -2.31 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67f019a5-b017-456f-a515-6c9d660431c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -2.25 0)
+		(layer "F.Fab")
+		(uuid "d1fc3a5e-43ff-42f5-a253-489790f4977e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2ffade0-e7c0-4504-9d46-15d5779377d3")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.5 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "616a20ad-698c-4ecf-915c-388fb39d094f")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.5 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ccb83ee0-3baa-470f-87ad-aaf63a52d7a8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_RECOM_R-78E-0.5_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

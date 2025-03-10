@@ -1,0 +1,336 @@
+(footprint "L_SMD_Sunlord_MWSA1004S_10.0x11.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Molded SMD Pkg, Nominal 10.0x11.5mm Footprint")
+	(tags "inductor smd")
+	(property "Reference" "REF**"
+		(at 6.604 -3.884549 270)
+		(layer "F.SilkS")
+		(uuid "db771125-b243-4ceb-9f26-8ced8f174236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47uH"
+		(at 0 6.6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1fd4e7d-9256-4a96-9de7-1af53a8863bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://192.168.1.75/data-sheets/Inductors/Sunlord%20MWSA-S%20Series%20Molded%20SMD%20Power%20Inductors%20Spec.pdf"
+		(at 1.524 13.208 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da4d210-30c5-4907-b6ed-61ce3ca45eaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor 47uH 2.8A 147mOhm 10.0x11.5mm SMD"
+		(at 1.016 15.748 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1c848d0-878c-42cc-8416-21e52db87a45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comments" "N/A"
+		(at 1.016 18.288 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d1c3a55-a783-4204-8df5-d1739ff38187")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Sunlord"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab45a75-a4eb-402f-9574-9a67eba44cd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfg P/N" "MWSA0603S-470MT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74bbd754-0394-4d8e-b805-144f5e338381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8adcc5c-d14d-471a-b85c-2dc58ee048cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Src P/N" "C408455"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f32a9f7e-8b6e-4a00-8a72-b120c632c4c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr P/N" "MWSA1004S-470MT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d4a45c6-94ba-4b7d-ac87-3bf70f1c2051")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b9a63f5-af03-4860-ab66-68e845669e6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "C408491"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfbe845-6847-4e64-9c82-23fe13d318bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.588 -5.2)
+		(end 5.588 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f318f308-40a3-4173-bdae-c49f4b7026fe")
+	)
+	(fp_line
+		(start -5.588 -2.4)
+		(end -5.588 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "945994b5-e82b-422f-9b1a-8a420e4e1165")
+	)
+	(fp_line
+		(start -5.588 2.41)
+		(end -5.588 5.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b755ee4-5116-4074-893b-03aab8e8ccd4")
+	)
+	(fp_line
+		(start -5.588 5.21)
+		(end 5.588 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b841f131-4e87-4e88-8773-e2b4f8b83c55")
+	)
+	(fp_line
+		(start 5.588 -5.2)
+		(end 5.588 -2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c25852da-9215-4e3f-ae9c-eeb3f421c9f9")
+	)
+	(fp_line
+		(start 5.588 5.2)
+		(end 5.588 2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39cd9f1a-7601-49ec-83e8-ddea0612b9bd")
+	)
+	(fp_line
+		(start -6 -5.334)
+		(end -6 5.334)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca3fcaca-31df-4ac9-a0a6-c54361d7a034")
+	)
+	(fp_line
+		(start -6 5.334)
+		(end 6 5.334)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbe36338-bdd0-4b03-b244-6263d956e243")
+	)
+	(fp_line
+		(start 6 -5.334)
+		(end -6 -5.334)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f6a9135-51dd-4bed-abb5-42d6ceb136b2")
+	)
+	(fp_line
+		(start 6 5.334)
+		(end 6 -5.334)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be7a608a-6ae4-481c-956a-7ce1cd5e87ce")
+	)
+	(fp_line
+		(start -5.588 -5.08)
+		(end -5.588 5.205)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9741240a-8920-4fa2-8c59-c5bdbdfdfa65")
+	)
+	(fp_line
+		(start -5.588 5.205)
+		(end 5.588 5.205)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6606a748-6907-4e93-bee5-5634c1bcd497")
+	)
+	(fp_line
+		(start 5.588 -5.1)
+		(end -5.588 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f85c4d5-b344-487f-9d2d-c6d9bd38d23a")
+	)
+	(fp_line
+		(start 5.588 5.205)
+		(end 5.588 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c81d98c3-6a7c-493d-b1e4-28c15c4da686")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.254 0 180)
+		(layer "F.Fab")
+		(uuid "c108be18-61ff-4c25-bed5-f4c49337b22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.826 0)
+		(size 4.5 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0ee9bce-19f7-48bf-b5c4-3cab5effa630")
+	)
+	(pad "2" smd rect
+		(at 4.826 0)
+		(size 4.5 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae4e126c-81e6-422a-8417-823f78b2b4d0")
+	)
+	(embedded_fonts no)
+	(model "${JOHN}/3dmodels/Sunlord MWSA1004S SMD Inductor v4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

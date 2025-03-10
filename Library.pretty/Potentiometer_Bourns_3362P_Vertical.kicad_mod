@@ -1,0 +1,329 @@
+(footprint "Potentiometer_Bourns_3362P_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Bourns 3386P, https://www.bourns.com/pdfs/3386.pdf")
+	(tags "Potentiometer vertical Bourns 3386P")
+	(property "Reference" "REF**"
+		(at 1.6256 7.366 180)
+		(layer "F.SilkS")
+		(uuid "bc5c4897-00f0-4edc-8081-61d72791c79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "20K"
+		(at 2.45 8.03 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4f978c6-2085-46d9-b202-8386ee027208")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://192.168.1.75/data-sheets/Potentiometers/Bourns%203362%20Single-Turn%20Trim%20Pots.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65e755d2-e67d-467c-9cf5-14a02cdca741")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Trim potentiometer, 22K, 1-turn"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "474fe349-e9f5-4687-a156-63cfc7513c2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "Digikey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b9772bd-3cdc-4d35-9e1a-40a281654014")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "3362P-1-223LF-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f541b84-05b3-4d2b-8158-8e041fbe1fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Bourns"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02c3e160-ec3b-4eab-a71e-76e1c589057c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr P/N" "3362P-1-223LF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35c2447a-94f9-42f8-8a83-209ef89d5e71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comments" "\"P\" footprint vs \"H\" footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef17cbd8-3763-4834-b0d4-854a593d9c35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -0.61)
+		(end 5.43 -0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40380106-18f9-4b51-b3db-22279bb7a34d")
+	)
+	(fp_line
+		(start -1.8 6.63)
+		(end -1.8 -0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccde6467-7e46-4fca-8bb8-649607c1a1b0")
+	)
+	(fp_line
+		(start -1.8 6.63)
+		(end 5.43 6.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4068a0a-b76b-4ca3-bed6-ad10605d26a9")
+	)
+	(fp_line
+		(start 5.43 6.63)
+		(end 5.43 -0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10e8667d-3f1a-4dc0-90fe-b0f1b8a61988")
+	)
+	(fp_line
+		(start -1.88 -0.69)
+		(end -1.88 6.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8671833-b72d-4667-82f6-1a0ecab76d3f")
+	)
+	(fp_line
+		(start -1.88 6.72)
+		(end 5.51 6.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21839a71-962a-4208-9edd-eecced8814fd")
+	)
+	(fp_line
+		(start 5.51 -0.69)
+		(end -1.88 -0.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c14ac529-6193-4b8a-b397-7cf434c0482a")
+	)
+	(fp_line
+		(start 5.51 6.72)
+		(end 5.51 -0.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7749ddf1-7ab4-4450-a002-13c51738dd3a")
+	)
+	(fp_line
+		(start -1.7 -0.5)
+		(end -1.7 6.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6425ed44-795c-4c4b-9597-31cac5990fe1")
+	)
+	(fp_line
+		(start -1.7 6.54)
+		(end 5.34 6.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cad8c5bf-88cc-4c6a-8d4c-edf384d6cde9")
+	)
+	(fp_line
+		(start 1.861 2.33)
+		(end 1.86 5.449)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27616bda-890f-48ca-9a6d-73b7981f23e2")
+	)
+	(fp_line
+		(start 3.39 3.901)
+		(end 0.271 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57e607a2-e9e7-44ad-b6ff-16011392d74d")
+	)
+	(fp_line
+		(start 3.39 3.901)
+		(end 0.271 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cc093df-be03-428f-8c27-093de40c3d7e")
+	)
+	(fp_line
+		(start 5.34 -0.5)
+		(end -1.7 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ca28f4c-b85f-43ba-9e70-0d38b372fe1b")
+	)
+	(fp_line
+		(start 5.34 6.54)
+		(end 5.34 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "520781d8-deb1-42c4-a996-d9f2e5fb4ab1")
+	)
+	(fp_circle
+		(center 1.83 3.901)
+		(end 1.83 2.326)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a95bd599-e6d0-48a3-845d-78b99d735bbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.33 6.17 180)
+		(layer "F.Fab")
+		(uuid "76fc865a-2dfe-4707-a91a-bc2863e61221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.71 3.01 90)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d58e5e2-30ec-4b8a-87d7-c25da7c42c49")
+	)
+	(pad "2" thru_hole circle
+		(at 1.83 0.47 90)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98784912-da99-4873-8a9c-b0a45b467f09")
+	)
+	(pad "3" thru_hole circle
+		(at 4.37 3.01 90)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59c1ed5e-8d9c-4e33-b9bb-2989cacf0127")
+	)
+	(embedded_fonts no)
+	(model "${JOHN}/3dmodels/Bourns 3362P Trim Pot.stp"
+		(offset
+			(xyz -0.7 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

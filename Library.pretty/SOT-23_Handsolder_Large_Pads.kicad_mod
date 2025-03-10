@@ -1,0 +1,331 @@
+(footprint "SOT-23_Handsolder_Large_Pads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-23, Handsoldering")
+	(tags "SOT-23")
+	(property "Reference" "REF**"
+		(at -0.0404 2.3904 180)
+		(layer "F.SilkS")
+		(uuid "1f653c22-ef87-412d-92a7-fce75ef043df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MMBT3906"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ead185c-0a71-422b-a57f-35b8d7067ad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://192.168.1.75/data-sheets/Transistors/Panjit%20MMBT3906%20PNP%20SOT-23%20SMD.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54f56eda-ecc9-48d9-b270-7719a681fb99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TRANS PNP 45V 0.8A SOT23"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c0be2a4-96f6-4f6c-904e-5ed5bdf6f3e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panjit International"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6595a985-ecfd-4cfa-811c-346d8be999eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr P/N" "MMBT3904_R1_00001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0805ec37-32f6-48ad-a871-4ec0c77a06c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8610b9cb-f413-4b65-a890-5646ad5e678c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOT-23"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60035a7a-5b01-4317-80bc-4166738c84ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a8d0010-7238-4ebb-8c3f-c9fd65ecd66a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee5011bc-bc9d-4e0d-88ad-5c0624a25061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comments" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1186a82e-0144-4f4a-904c-6e7ce5021767")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.799999 -0.3)
+		(end -0.8 0.310001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba5fca8d-b236-4522-b201-3d63d7b90b5a")
+	)
+	(fp_line
+		(start 0.76 -1.58)
+		(end -0.84 -1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f69ef1b-681f-47c0-a9b1-8116fb329fbb")
+	)
+	(fp_line
+		(start 0.76 -1.58)
+		(end 0.76 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff46df54-2e7c-454d-9cf1-e6d07e5f2434")
+	)
+	(fp_line
+		(start 0.76 1.58)
+		(end -0.81 1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f46e53f-90a5-4202-8aa6-a956c36ef82a")
+	)
+	(fp_line
+		(start 0.76 1.58)
+		(end 0.76 0.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e03322a-2b86-4f7e-8e9c-61f293d507e5")
+	)
+	(fp_line
+		(start -2.7 -1.75)
+		(end 2.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7574c346-3792-4617-a2f5-b980de850ccd")
+	)
+	(fp_line
+		(start -2.7 1.75)
+		(end -2.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed27f39e-ded4-452e-a0e7-3dc506bc3541")
+	)
+	(fp_line
+		(start 2.7 -1.75)
+		(end 2.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eee07717-02c5-4e31-b93f-fb3d1ecf6836")
+	)
+	(fp_line
+		(start 2.7 1.75)
+		(end -2.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37bdb0da-f49b-4d7f-a486-f37f71ec72f0")
+	)
+	(fp_line
+		(start -0.7 -0.95)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9442ce2-4406-4cde-a59e-50b2bf7eaf02")
+	)
+	(fp_line
+		(start -0.7 -0.95)
+		(end -0.15 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63803e5b-d84d-4f45-b9a7-63de8cd3de3a")
+	)
+	(fp_line
+		(start -0.7 1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bc57d0e-6cfa-4d8f-bd5e-5a8c0de68e83")
+	)
+	(fp_line
+		(start -0.15 -1.52)
+		(end 0.7 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91021515-27b1-44f8-919a-d2b9a890804a")
+	)
+	(fp_line
+		(start 0.7 -1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c17568db-172d-4d17-ad02-e039ca6e4ba9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "d7d98335-4a2d-4abe-8907-8e7819dc84f5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.45 -0.93)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "39c34a80-db6f-440a-b7ac-63fdfe608b8f")
+	)
+	(pad "2" smd roundrect
+		(at -1.45 0.93)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c8da60ad-ccfe-4cfe-b3fe-0fb413e6f994")
+	)
+	(pad "3" smd roundrect
+		(at 1.47 0.01)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dd4ecc0c-227b-46c2-883f-f6a0afdfa624")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,397 @@
+(footprint "Relay_SPDT_Songle_Miniature_SRS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Subminiature High-Power Relay (DIP-12)")
+	(tags "Relay DIP")
+	(property "Reference" "REF**"
+		(at 3.943 -2.3676 180)
+		(layer "F.SilkS")
+		(uuid "2feafe5d-d128-4663-a76e-73e1b52ec224")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NS_SRS_SPDT"
+		(at 3.81 9.906 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f75b759a-54e3-4ee2-b765-752ba22bea18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://192.168.1.75/data-sheets/Relays/Ningbo%20Songle%20SRS%20Series%20Subminiature%20DIP%20Relays.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9254056-39dd-479c-ae8f-4eff9eee6e08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ningbo Songle Miniature PCB Relay SRS, SPDT, 3A"
+		(at 6.35 17.780001 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "441c3a91-dd61-4042-9139-c6de3812956a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d310968-2395-4f59-96d4-a33d65da4500")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "Varies by coil voltage"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d56b057-7eb3-4df5-97b5-2a9231d86abc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Ningbo Songle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d216dee1-3c45-47f6-a86e-db099ea5fcc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr P/N" "SRS-xxVDC-SL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977827c7-3109-4b35-b4d5-e8ecf7dd8223")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comments" "DIP-12 footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80a0f69c-6bb8-47d8-a081-dafbf371379c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "THT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef9f3e82-0b06-4b3f-9993-5a3a3d8671a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "DIP-12"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f8a2b5d-81b2-49ff-945b-d9facd90a615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "DIP-12 footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c66c01ce-20a2-4574-bd10-ab6ba135ab94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 4.318)
+		(end 0 3.556)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01613803-e0e3-4123-9588-fe8996895e60")
+	)
+	(fp_line
+		(start 1.016 0)
+		(end 2.834 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84eb122b-a880-49db-b80c-3466f2547fd8")
+	)
+	(fp_line
+		(start 1.016 12.7)
+		(end 6.604 12.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4317389d-3776-40f5-a21c-5c3cf13da3d2")
+	)
+	(fp_line
+		(start 3.048 4.318)
+		(end 0 4.318)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eac2c517-46cc-400c-b4ca-77e2dae12a71")
+	)
+	(fp_line
+		(start 3.992 1.512)
+		(end 2.722 -0.266)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6c24a53-ee1b-4ad2-b87b-2cf6ec8ff387")
+	)
+	(fp_line
+		(start 3.992 2.032)
+		(end 3.992 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24eb93de-678a-4a03-a64e-0fa36d074018")
+	)
+	(fp_line
+		(start 3.992 2.032)
+		(end 5.588 2.032)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "766833fb-175f-4676-93d3-8337f51656bf")
+	)
+	(fp_line
+		(start 4.679 0)
+		(end 6.497 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "664dbe5c-6b6d-479a-b670-a0bd3c5b7bef")
+	)
+	(fp_line
+		(start 4.826 3.048)
+		(end 3.048 5.588)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c316ce1-9f4b-4b56-9d28-f5a6317403de")
+	)
+	(fp_line
+		(start 4.826 4.318)
+		(end 7.62 4.318)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab362f70-d6d1-47d1-8317-74da0c0e8abc")
+	)
+	(fp_line
+		(start 5.588 2.032)
+		(end 5.588 12.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15b87674-b069-4c64-9d36-bb974fb8371b")
+	)
+	(fp_line
+		(start 7.62 4.318)
+		(end 7.62 3.556)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ea10885-dc13-4e39-a71f-25199efc0d3f")
+	)
+	(fp_rect
+		(start -1.69 -1.522)
+		(end 9.31 14.478)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cdef1d52-e5c0-438b-bbc9-543e8feadd81")
+	)
+	(fp_rect
+		(start 3.048 3.048)
+		(end 4.826 5.588)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1f5d7b00-94d8-4a65-b9c3-2882968fbc4f")
+	)
+	(fp_rect
+		(start -1.69 -1.522)
+		(end 9.31 14.478)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a60070e-0652-4490-8e97-605cd879fbe5")
+	)
+	(fp_rect
+		(start -1.49 -1.522)
+		(end 9.31 14.278)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6d310de5-6196-4cb1-969b-682bc6cf81da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 7.112 180)
+		(layer "F.Fab")
+		(uuid "9178a152-a680-4f5f-a399-91a41e4c3157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93a5ac0a-88ec-4ddd-8556-583c62e24d48")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b36fe7f4-42a8-47ae-a7e8-0e45a3efe596")
+	)
+	(pad "5" thru_hole oval
+		(at 0 12.7)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b42942b0-8622-4da0-bfe4-7c8b62ab3126")
+	)
+	(pad "6" thru_hole oval
+		(at 7.62 12.7)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de79caa6-4370-445c-b45e-6d35f4e8225a")
+	)
+	(pad "9" thru_hole oval
+		(at 7.62 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8c934d1-425c-475e-ab4f-9076e5e3ecaa")
+	)
+	(pad "10" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec9c6032-8965-4360-98a2-730a77ae279b")
+	)
+	(embedded_fonts no)
+	(model "${JOHN}/3dmodels/Ningo Songle SRS Relay v1.step"
+		(offset
+			(xyz 3.8 -6.45 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
