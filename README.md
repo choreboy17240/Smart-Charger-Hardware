@@ -97,6 +97,12 @@ The circuit provides essential protection for battery-powered systems, preventin
 damage from excessive discharge while allowing normal operation above the safe 
 voltage threshold.
 
+**Note:** As battery voltage limits vary across manufacturers and also depend
+on how aggressive you want to be in draining the battery, you will need to 
+adjust the RV1 trim potentiometer so that the shutoff occurs at the desired 
+voltage. Typical range might be around 11.0-11.5 volts, but check the manufacturer's
+recommendation for your battery!
+
 ## Thermal Performance
 
 The design has been thermally optimized for enclosed operation:
@@ -113,15 +119,34 @@ The design has been thermally optimized for enclosed operation:
 
 ## Usage Notes
 
-1. Battery is connected through an SPDT switch with a center-off position.
-1. Connect 12-24V power supply to the input terminals
-2. Connect battery to the output terminals
-3. The system automatically determines charge state and applies appropriate charging profile
-4. RGB LED indicates charging status:
-   - Red: Fast bulk charging
-   - Yellow: Absorption charging
-   - Green: Float/maintenance charging or standbu
-   - Blinking: Error condition
+See the system connection diagram in the `System` folder for details on how
+to connect the module for charging and powering a load from the SLA battery.
+The DPDT center-off switch allows the user to select between the following
+operating modes:
+1. `Charge`: Standby mode with the load off and battery being charged
+2. `Power`: Active mode with the load on and charger disconnected
+3. `Off`: Shuts down the system completely (no charging, no power to load)
+
+The system should nomrally be left in the `Charge` mode, as the smart charger
+is designed to charge up the battery and then automatically shift to a 
+standby mode for a software configurable period (default is one week) to 
+avoid overcharging the battery.
+
+Charging the battery:
+1. Switch the DPDT switch to the `Charge`position
+2. The charger automatically determines charge state and applies appropriate charging profile
+3. RGB LED color and flashing rate indicates charging status:
+   - Blue (fast): Fast bulk charging
+   - Yellow (medium): Absorption charging
+   - Green (slow): Float/maintenance charging
+   - Green (short keep-alive pulse every second): Standby mode
+4. Once the battery is charged sufficiently, the charger will enter the standby
+   state until it's time to top-off the battery.
+   
+Using the battery to power a load:
+1. Switch the DPDT switch to the `Power` position
+2. Battery protection circuit will automatically shut-off the load if battery
+   voltage drops below the adjustable threshold.
 
 ## Software Configuration
 
